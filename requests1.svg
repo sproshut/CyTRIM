@@ -1,0 +1,1023 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="480"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="144" width="1198.9999832155054" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 100.00% (1 119 0.00028368400000000003 47.186406761)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="17.64072847906157" y="120" width="1181.3520403537727" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 98.53% (1 1 0.004238071293518137 46.49245424265313)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="17.641040689896887" y="96" width="1177.8213999630896" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 98.24% (985 985 3.0679223498793013 46.35362237937662)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="17.641040689896887" y="72" width="12.881393300708009" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/estop.py:33:eloss 1.16% (906130 906130 0.42176040291347006 0.5458442332152901)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">eloss</text>
+</g></svg>
+<svg class="func_g" x="40.588580810446985" y="72" width="598.5664279251679" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 49.96% (906124 906124 8.003985754259567 23.576154786692168)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="40.588580810446985" y="48" width="195.34824539168227" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:124:magic 16.36% (906124 906124 2.0013993334319258 7.720806919542004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">magic</text>
+</g></svg>
+<svg class="func_g" x="40.588580810446985" y="24" width="33.57324834807349" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:54:ZBLscreen 2.88% (906124 906124 1.0204326175081335 1.3594894853496757)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">ZBLscreen</text>
+</g></svg>
+<svg class="func_g" x="75.16182915852048" y="24" width="105.13913453631741" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:82:estimate_apsis 8.84% (906124 906124 2.3016830614849844 4.173603704619171)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">estimate_apsis</text>
+</g></svg>
+<svg class="func_g" x="75.16182915852048" y="0" width="38.45319145390756" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:54:ZBLscreen 3.29% (906124 906124 1.1257007776322792 1.5513786383356643)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">ZBLscreen</text>
+</g></svg>
+<svg class="func_g" x="245.1243639475885" y="48" width="188.26804766559852" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 15.77% (1812248 1812248 4.404471260622371 7.442399340771816)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+<svg class="func_g" x="245.1243639475885" y="24" width="18.62210895420789" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:128:isComplexType 1.64% (1809902 1809902 0.5125871864710371 0.7715806896437547)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">isComplexType</text>
+</g></svg>
+<svg class="func_g" x="279.106254897548" y="24" width="30.58437298372338" height="23"><g>
+    <title>~:0:&lt;method 'dot' of 'numpy.ndarray' objects&gt; 2.63% (1809902 1809902 1.2419609097889972 1.2419609097889972)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'dot' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="640.1550087356148" y="72" width="477.23703118187035" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 39.85% (906130 906130 11.25503688595077 18.805239497631014)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="645.1664808289893" y="48" width="61.86751072779982" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:1305:argmin 5.24% (906130 906130 1.000281016514003 2.4720766456217085)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">argmin</text>
+</g></svg>
+<svg class="func_g" x="645.1664808289893" y="24" width="36.42931177556084" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:51:_wrapfunc 3.12% (906130 906130 0.6838530296370738 1.4717956291077054)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_wrapfunc</text>
+</g></svg>
+<svg class="func_g" x="651.002456911382" y="0" width="13.202233458093794" height="23"><g>
+    <title>~:0:&lt;method 'argmin' of 'numpy.ndarray' objects&gt; 1.18% (906130 906130 0.5584603118681428 0.5584603118681428)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'argmin' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="712.3473254682613" y="48" width="95.56023215998766" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 8.05% (906130 906130 2.2720610750325845 3.7969420461396037)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+<svg class="func_g" x="729.4044570081488" y="24" width="14.85370294376987" height="23"><g>
+    <title>~:0:&lt;method 'dot' of 'numpy.ndarray' objects&gt; 1.32% (908476 908476 0.6233994051968601 0.6233994051968601)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'dot' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="192" width="54.39307177763115" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:54:ZBLscreen 4.62% (1839298 1839298 2.1781667110000003 2.954315916)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">ZBLscreen</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="216" width="28.522336504482826" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:82:estimate_apsis 2.42% (919649 919649 1.1425030550000002 1.574534609)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">estimate_apsis</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="240" width="28.522336504482826" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:124:magic 4.95% (919649 919649 2.336038121 4.235899164)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">magic</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="264" width="28.522336504482826" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 4.30% (919649 919649 2.03127234 7.8360481470000005)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="288" width="28.522336504482826" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="312" width="28.522336504482826" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="336" width="28.522336504482826" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="20.803324153114705" y="360" width="28.522336504482826" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="216" width="24.870735273148334" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:124:magic 2.19% (919649 919649 1.035663656 1.379781307)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">magic</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="240" width="24.870735273148334" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 4.30% (919649 919649 2.03127234 7.8360481470000005)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="264" width="24.870735273148334" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="288" width="24.870735273148334" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="312" width="24.870735273148334" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="50.325660657597524" y="336" width="24.870735273148334" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="192" width="58.407907878836184" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:82:estimate_apsis 4.95% (919649 919649 2.336038121 4.235899164)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">estimate_apsis</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="216" width="58.407907878836184" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:124:magic 4.95% (919649 919649 2.336038121 4.235899164)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">magic</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="240" width="58.407907878836184" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 4.30% (919649 919649 2.03127234 7.8360481470000005)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="264" width="58.407907878836184" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="288" width="58.407907878836184" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="312" width="58.407907878836184" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="76.19639593074585" y="336" width="58.40790787883617" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="87.03224367223976" y="360" width="19.081379217579588" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="107.11362288981934" y="360" width="22.068620027741083" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="107.11362288981934" y="384" width="22.068620027741083" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="107.11362288981934" y="408" width="22.068620027741083" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="107.11362288981934" y="432" width="22.068620027741083" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="192" width="50.657393330503794" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:124:magic 4.30% (919649 919649 2.03127234 7.8360481470000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">magic</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="216" width="50.657393330503794" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 4.30% (919649 919649 2.03127234 7.8360481470000005)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="240" width="50.657393330503794" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="264" width="50.657393330503794" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="288" width="50.657393330503794" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="135.60430380958204" y="312" width="50.657393330503794" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="145.02647787424408" y="336" width="16.461508777202127" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="162.48798665144622" y="336" width="19.059026161893918" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="162.48798665144622" y="360" width="19.059026161893918" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="162.48798665144622" y="384" width="19.059026161893918" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="162.48798665144622" y="408" width="19.059026161893918" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="187.26169714008583" y="192" width="205.58797742804327" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="187.26169714008583" y="216" width="205.58797742804327" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="187.26169714008583" y="240" width="205.58797742804327" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="187.26169714008583" y="264" width="205.58797742804327" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="187.26169714008583" y="288" width="205.58797742804327" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="187.30100898137968" y="312" width="36.6417974345797" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (3 1 3.4140000000000003e-06 0.068502756)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="187.30100898137968" y="336" width="36.6417974345797" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="224.9428064159594" y="312" width="68.83197464193518" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="224.94554360465767" y="336" width="11.422268843829928" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/__init__.py:1:&lt;module&gt; 0.00% (8 8 0.000196168 0.050125868000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="224.94554360465767" y="360" width="11.422268843829928" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 0.000429947 0.12388402400000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="224.94554360465767" y="384" width="11.422268843829928" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="237.36781244848757" y="336" width="15.23729826569161" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/__init__.py:1:&lt;module&gt; 0.00% (16 16 7.3958e-05 0.06552013000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="237.36781244848757" y="360" width="15.23729826569161" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 0.000282766 0.06822729300000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="237.36781244848757" y="384" width="15.23729826569161" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="267.33271201185806" y="336" width="11.033645791091292" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/lib/__init__.py:1:&lt;module&gt; 0.00% (22 22 5.2087000000000005e-05 0.048557711)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="267.33271201185806" y="360" width="11.033645791091292" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 7.2765e-05 0.048798029)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="267.33271201185806" y="384" width="11.033645791091292" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="294.7747810578946" y="312" width="79.21995259127519" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="294.7747810578946" y="336" width="79.21995259127519" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="294.7747810578946" y="360" width="79.21995259127519" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="294.7747810578946" y="384" width="79.21995259127519" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="340.5113102801689" y="408" width="15.892569081835276" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 0.00% (8 8 4.3796000000000006e-05 0.136543983)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="340.5113102801689" y="432" width="15.892569081835276" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="358.8912511779557" y="408" width="15.103482471213884" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.__import__&gt; 0.00% (46 5 0.000371395 0.130165733)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.__import__&gt;</text>
+</g></svg>
+<svg class="func_g" x="359.1790123197163" y="432" width="14.815721329453291" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (46 5 0.00022933800000000002 0.130221195)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="374.9947336491698" y="312" width="12.642152958261182" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:1171:create_module 0.00% (28 27 2.775e-05 0.024826792)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">create_module</text>
+</g></svg>
+<svg class="func_g" x="374.9947336491698" y="336" width="12.642152958261182" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:558:module_from_spec 0.00% (28 27 9.898900000000001e-05 0.024939859)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">module_from_spec</text>
+</g></svg>
+<svg class="func_g" x="374.9947336491698" y="360" width="12.642152958261182" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (150 145 0.00045284100000000005 0.030702059)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="374.9947336491698" y="384" width="12.642152958261182" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="374.9947336491698" y="408" width="12.642152958261182" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="393.84987936439416" y="192" width="289.499680725842" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="393.84987936439416" y="216" width="289.499680725842" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="393.84987936439416" y="240" width="289.499680725842" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="393.84987936439416" y="264" width="289.499680725842" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="393.84987936439416" y="288" width="289.499680725842" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="393.9051588510651" y="312" width="51.931106024797444" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (3 1 3.4140000000000003e-06 0.068502756)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="393.9051588510651" y="336" width="51.931106024797444" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="446.83626487586247" y="312" width="97.19625803250408" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="446.84011385319815" y="336" width="16.467933894072335" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/__init__.py:1:&lt;module&gt; 0.00% (8 8 0.000196168 0.050125868000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="446.84011385319815" y="360" width="16.467933894072335" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 0.000429947 0.12388402400000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="446.84011385319815" y="384" width="16.467933894072335" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="464.3080477472705" y="336" width="21.832548247763526" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/__init__.py:1:&lt;module&gt; 0.00% (16 16 7.3958e-05 0.06552013000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="464.3080477472705" y="360" width="21.832548247763526" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 0.000282766 0.06822729300000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="464.3080477472705" y="384" width="21.832548247763526" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="506.44406100667237" y="336" width="15.921460308586958" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/lib/__init__.py:1:&lt;module&gt; 0.00% (22 22 5.2087000000000005e-05 0.048557711)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="506.44406100667237" y="360" width="15.921460308586958" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 7.2765e-05 0.048798029)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="506.44406100667237" y="384" width="15.921460308586958" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="545.0325229083666" y="312" width="111.80361473951022" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="545.0325229083666" y="336" width="111.80361473951022" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="545.0325229083666" y="360" width="111.80361473951022" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="545.0325229083666" y="384" width="111.80361473951022" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="562.9747553360668" y="408" width="11.396753895419483" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/__init__.py:1:&lt;module&gt; 0.00% (3 3 2.0281e-05 0.071259739)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="562.9747553360668" y="432" width="11.396753895419483" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 0.000429947 0.12388402400000001)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="562.9747553360668" y="456" width="11.396753895419483" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="609.3462709879551" y="408" width="22.753976325275932" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 0.00% (8 8 4.3796000000000006e-05 0.136543983)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="609.3462709879551" y="432" width="22.753976325275932" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="635.1917583635536" y="408" width="21.644379284323264" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.__import__&gt; 0.00% (46 5 0.000371395 0.130165733)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.__import__&gt;</text>
+</g></svg>
+<svg class="func_g" x="635.5964020453761" y="432" width="21.23973560250073" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (46 5 0.00022933800000000002 0.130221195)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="657.8361376478767" y="312" width="18.183309349007697" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:1171:create_module 0.00% (28 27 2.775e-05 0.024826792)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">create_module</text>
+</g></svg>
+<svg class="func_g" x="657.8361376478767" y="336" width="18.183309349007697" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:558:module_from_spec 0.00% (28 27 9.898900000000001e-05 0.024939859)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">module_from_spec</text>
+</g></svg>
+<svg class="func_g" x="657.8361376478767" y="360" width="18.183309349007697" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (150 145 0.00045284100000000005 0.030702059)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="657.8361376478767" y="384" width="18.183309349007697" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="657.8361376478767" y="408" width="18.183309349007697" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="684.3497325890646" y="192" width="78.18503263584154" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="684.3497325890646" y="216" width="78.18503263584154" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="684.3497325890646" y="240" width="78.18503263584154" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="684.3497325890646" y="264" width="78.18503263584154" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="684.3648007913607" y="288" width="13.428075609419851" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (3 1 3.4140000000000003e-06 0.068502756)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="684.3648007913607" y="312" width="13.428075609419851" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="698.7928764007805" y="288" width="25.766548856759734" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="725.5594252575403" y="288" width="29.74825380967937" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="725.5594252575403" y="312" width="29.74825380967937" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="725.5594252575403" y="336" width="29.74825380967937" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="725.5594252575403" y="360" width="29.74825380967937" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="192" width="16.650682870790792" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:51:_wrapfunc 1.47% (919655 919655 0.6940602610000001 1.493763739)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_wrapfunc</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="216" width="16.650682870790792" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:1305:argmin 1.47% (919655 919655 0.6940602610000001 1.493763739)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">argmin</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="240" width="16.650682870790785" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 2.15% (919655 919655 1.015211271 2.5089750100000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="264" width="16.650682870790792" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="288" width="16.650682870790792" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="312" width="16.650682870790792" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="763.6406764792938" y="336" width="16.650682870790792" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="192" width="24.81789103651541" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:1305:argmin 2.15% (919655 919655 1.015211271 2.5089750100000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">argmin</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="216" width="24.81789103651541" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 2.15% (919655 919655 1.015211271 2.5089750100000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="240" width="24.81789103651541" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="264" width="24.81789103651541" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="288" width="24.81789103651541" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="786.0654629683174" y="312" width="24.81789103651541" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="192" width="18.871071616753508" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:128:isComplexType 1.66% (2758953 2758953 0.7813704010000001 1.176171252)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">isComplexType</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="216" width="18.871071616753508" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 1.66% (2758953 2758953 0.7813704010000001 1.176171252)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="240" width="12.158106441466114" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 9.47% (1839298 1839298 4.470212663 7.553485040000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="264" width="12.158106441466114" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="288" width="12.158106441466114" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="312" width="12.158106441466114" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="812.1803598072657" y="336" width="12.158106441466114" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="832.0514314240191" y="192" width="11.687460417543113" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2562:_norm_dispatcher 1.06% (2758953 2758953 0.49889639700000005 0.49889639700000005)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_norm_dispatcher</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="192" width="171.325558016124" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 14.36% (2758953 2758953 6.776186658 11.407100471000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="216" width="113.10949941167085" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 9.47% (1839298 1839298 4.470212663 7.553485040000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="240" width="113.10949941167085" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="264" width="113.10949941167085" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="288" width="113.10949941167085" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="844.7388918415623" y="312" width="113.10949941167085" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="844.7606058569995" y="336" width="19.79156161791408" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (3 1 3.4140000000000003e-06 0.068502756)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="844.7606058569995" y="360" width="19.79156161791408" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="865.5521674749135" y="336" width="37.571904176249674" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="904.124071651163" y="336" width="43.3097354791944" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="904.124071651163" y="360" width="43.3097354791944" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="904.124071651163" y="384" width="43.30973547919439" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="904.124071651163" y="408" width="43.30973547919439" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="958.8483912532333" y="216" width="57.21605860445315" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 4.89% (919655 919655 2.305973995 3.853615431)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="958.8483912532333" y="240" width="57.21605860445315" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="958.8483912532333" y="264" width="57.21605860445315" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="958.8483912532333" y="288" width="57.21605860445315" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="958.8483912532333" y="312" width="57.21605860445315" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="969.4668487898008" y="336" width="18.67850394215504" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1033:_handle_fromlist 0.00% (43 16 4.0324e-05 0.12708433300000002)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_handle_fromlist</text>
+</g></svg>
+<svg class="func_g" x="989.1453527319559" y="336" width="21.60581433363793" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="989.1453527319559" y="360" width="21.60581433363793" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="989.1453527319559" y="384" width="21.60581433363793" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="989.1453527319559" y="408" width="21.60581433363793" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="1028.6341772990895" y="192" width="19.45494233516168" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.issubclass&gt; 1.70% (5518108 5518108 0.8043293690000001 0.8043293690000001)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.issubclass&gt;</text>
+</g></svg>
+<svg class="func_g" x="1054.3791176070342" y="192" width="18.738331110698105" height="23"><g>
+    <title>~:0:&lt;built-in method math.exp&gt; 1.64% (7357193 7357193 0.7761507780000001 0.7761507780000001)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.exp&gt;</text>
+</g></svg>
+<svg class="func_g" x="1054.3791576100796" y="216" width="18.738291107652667" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:54:ZBLscreen 1.64% (7357192 7357192 0.7761492050000001 0.7761492050000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">ZBLscreen</text>
+</g></svg>
+<svg class="func_g" x="1078.299114404622" y="192" width="20.565619618397186" height="23"><g>
+    <title>~:0:&lt;built-in method math.sqrt&gt; 1.80% (7357214 7357214 0.8480034280000001 0.8480034280000001)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method math.sqrt&gt;</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="192" width="13.414216847059679" height="23"><g>
+    <title>~:0:&lt;method 'argmin' of 'numpy.ndarray' objects&gt; 1.20% (919655 919655 0.566795924 0.566795924)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'argmin' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="216" width="13.414216847059679" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:51:_wrapfunc 1.20% (919655 919655 0.566795924 0.566795924)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_wrapfunc</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="240" width="13.414216847059679" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:1305:argmin 1.47% (919655 919655 0.6940602610000001 1.493763739)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">argmin</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="264" width="13.414216847059679" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 2.15% (919655 919655 1.015211271 2.5089750100000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="288" width="13.414216847059679" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="312" width="13.414216847059679" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="336" width="13.414216847059679" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1119.3993697789465" y="360" width="13.414216847059679" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="1133.8668106398113" y="192" width="47.1463876266394" height="23"><g>
+    <title>~:0:&lt;method 'dot' of 'numpy.ndarray' objects&gt; 4.01% (2758954 2758954 1.893212552 1.893212552)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'dot' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="216" width="47.14613949586107" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 4.01% (2758953 2758953 1.893202795 1.893202795)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="240" width="30.881120477573795" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/scatter.py:155:scatter 9.47% (1839298 1839298 4.470212663 7.553485040000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">scatter</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="264" width="30.881120477573795" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 17.22% (919649 919649 8.123453726000001 23.928053888)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="288" width="30.881120477573795" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="312" width="30.881120477573795" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1133.86705877059" y="336" width="30.881120477573795" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="1150.4587192533158" y="360" width="11.37972318189962" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap_external&gt;:844:exec_module 0.00% (118 8 0.000114629 0.14598898600000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">exec_module</text>
+</g></svg>
+<svg class="func_g" x="1150.4587192533158" y="384" width="11.37972318189962" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:659:_load_unlocked 0.00% (118 8 0.0004939170000000001 0.14687993000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="1150.4587192533158" y="408" width="11.37972318189962" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:967:_find_and_load_unlocked 0.00% (150 9 0.0009369990000000001 0.147528916)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load_unlocked</text>
+</g></svg>
+<svg class="func_g" x="1150.4587192533158" y="432" width="11.37972318189962" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:1002:_find_and_load 0.00% (157 9 0.000781302 0.148598118)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_find_and_load</text>
+</g></svg>
+<svg class="func_g" x="1165.7481792481635" y="240" width="15.26501901828728" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/select_recoil.py:30:get_recoil_position 4.89% (919655 919655 2.305973995 3.853615431)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">get_recoil_position</text>
+</g></svg>
+<svg class="func_g" x="1165.7481792481635" y="264" width="15.26501901828728" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/pytrim/trajectory.py:25:trajectory 24.21% (919655 919655 11.423030242000001 19.085927631)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">trajectory</text>
+</g></svg>
+<svg class="func_g" x="1165.7481792481635" y="288" width="15.26501901828728" height="23"><g>
+    <title>pytrim/pytrim.py:1:&lt;module&gt; 6.60% (1000 1000 3.1137143430000003 47.045499329)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1165.7481792481635" y="312" width="15.26501901828728" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.01% (1 1 0.0043013290000000004 47.186403405)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1165.7481792481635" y="336" width="15.26501901828728" height="23"><g>
+    <title>&lt;frozen importlib._bootstrap&gt;:220:_call_with_frames_removed 0.00% (118 8 0.00028032800000000004 0.145983828)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_call_with_frames_removed</text>
+</g></svg>
+<svg class="func_g" x="1182.0697614791613" y="192" width="16.822038370010283" height="23"><g>
+    <title>~:0:&lt;method 'ravel' of 'numpy.ndarray' objects&gt; 1.49% (2758953 2758953 0.700798303 0.700798303)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'ravel' of 'numpy.ndarray' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1182.0697614791613" y="216" width="16.822038370010283" height="23"><g>
+    <title>/home/xazker/Desktop/CyTRIM/venv/lib/python3.9/site-packages/numpy/linalg/_linalg.py:2566:norm 1.49% (2758953 2758953 0.700798303 0.700798303)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">norm</text>
+</g></svg>
+</svg>

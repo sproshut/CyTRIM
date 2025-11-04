@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="216"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="72" width="1198.999589412999" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 100.00% (1 1 8.190000000000001e-06 8.484435211000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="48" width="1198.9984310569748" height="23"><g>
+    <title>test.py:1:&lt;module&gt; 100.00% (1 1 2.3032000000000002e-05 8.484427021)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="24" width="1057.392368350534" height="23"><g>
+    <title>test.py:3:main 88.20% (1 1 3.3896e-05 7.483220458000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">main</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="0" width="1057.3750675466356" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.input&gt; 88.20% (1 1 7.4830981350000005 7.4830981350000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.input&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.392368350534" y="24" width="140.60280516603223" height="23"><g>
+    <title>~:0:&lt;built-in method time.sleep&gt; 11.80% (1 1 1.0011835310000001 1.0011835310000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method time.sleep&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.009209991156757937" y="120" width="1057.3750675466356" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.input&gt; 88.20% (1 1 7.4830981350000005 7.4830981350000005)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.input&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.009209991156757937" y="144" width="1057.3750675466356" height="23"><g>
+    <title>test.py:3:main 88.20% (1 1 7.4830981350000005 7.4830981350000005)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">main</text>
+</g></svg>
+<svg class="func_g" x="0.009209991156757937" y="168" width="1057.3750675466356" height="23"><g>
+    <title>test.py:1:&lt;module&gt; 0.00% (1 1 3.3896e-05 7.483220458000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.009209991156757937" y="192" width="1057.3750675466356" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 2.3032000000000002e-05 8.484427021)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.3967842469667" y="120" width="140.60280516603223" height="23"><g>
+    <title>~:0:&lt;built-in method time.sleep&gt; 11.80% (1 1 1.0011835310000001 1.0011835310000001)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method time.sleep&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.3967842469667" y="144" width="140.60280516603223" height="23"><g>
+    <title>test.py:1:&lt;module&gt; 11.80% (1 1 1.0011835310000001 1.0011835310000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;module&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.3967842469667" y="168" width="140.60280516603223" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.exec&gt; 0.00% (1 1 2.3032000000000002e-05 8.484427021)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.exec&gt;</text>
+</g></svg>
+</svg>
