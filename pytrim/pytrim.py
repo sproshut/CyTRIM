@@ -17,6 +17,7 @@ recorded.
 """
 from math import sqrt
 import time
+from numba import jit, prange
 import numpy as np
 import select_recoil
 import scatter
@@ -44,23 +45,28 @@ estop.setup(corr_lindhard, z1, m1, z2, density)
 geometry.setup(zmin, zmax)
 trajectory.setup()
 
-# Initial conditions of the projectile
-e_init = 50000.0                         # energy (eV)
-pos_init = np.array([0.0, 0.0, 0.0])     # position (A)
-dir_init = np.array([0.0, 0.0, 1.0])     # direction (unit vector)
+@jit(fastmath=True)
+def simulate():
+    # Initial conditions of the projectile
+    e_init = 50000.0                         # energy (eV)
+    pos_init = np.array([0.0, 0.0, 0.0])     # position (A)
+    dir_init = np.array([0.0, 0.0, 1.0])     # direction (unit vector)
 
-count_inside = 0
-mean_z = 0.0
-std_z = 0.0
-for _ in range(nion):
-    pos, dir, e, is_inside = trajectory.trajectory(pos_init, dir_init, e_init)
-    if is_inside:
-        count_inside += 1
-        mean_z += pos[2]
-        std_z += pos[2]**2
+    count_inside = 0
+    mean_z = 0.0
+    std_z = 0.0
+    for _ in prange(nion):
+        pos, dir, e, is_inside = trajectory.trajectory(pos_init, dir_init, e_init)
+        if is_inside:
+            count_inside += 1
+            mean_z += pos[2]
+            std_z += pos[2]**2
 
-mean_z /= count_inside
-std_z = sqrt(std_z/count_inside - mean_z**2)
+    mean_z /= count_inside
+    std_z = sqrt(std_z/count_inside - mean_z**2)
+    return count_inside, mean_z, std_z
+
+count_inside, mean_z, std_z = simulate()
 print(f"Number of ions stopped inside the target: {count_inside} / {nion}")
 print(f"Mean penetration depth of ions stopped inside the target: "
       f"{mean_z:.2f} A")

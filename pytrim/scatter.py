@@ -12,6 +12,7 @@ Available functions:
 
 from math import sqrt, exp
 import numpy as np
+from numba import jit
 
 
 def setup(z1, m1, z2, m2):
@@ -51,6 +52,7 @@ A2B2 = A2 * B2
 A3B3 = A3 * B3
 A4B4 = A4 * B4
 
+@jit(fastmath=True)
 def ZBLscreen(r):
     """Calculate the ZBL screening function and its derivative.
 
@@ -79,6 +81,7 @@ R12sq = (2*K2)**2
 R23sq = K3 / K2
 NITER = 1           # number of Newton-Raphson iterations
 
+@jit(fastmath=True)
 def estimate_apsis(e, p):
     """Estimate the distance of closest approach (apsis) in a colllision.
 
@@ -121,6 +124,7 @@ C3 = 0.007122
 C4 = 14.813
 C5 = 9.3066
 
+@jit(fastmath=True)
 def magic(e, p):
     """Calculate CM scattering angle using Biersack's magic formula.
 
@@ -152,6 +156,7 @@ def magic(e, p):
     return cos_half_theta
 
 
+@jit(fastmath=True)
 def scatter(e, dir, p, dirp):
     """Treat a scattering event.
 

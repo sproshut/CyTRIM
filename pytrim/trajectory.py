@@ -7,6 +7,8 @@ from select_recoil import get_recoil_position
 from scatter import scatter
 from estop import eloss
 from geometry import is_inside_target
+from numba import jit, cfunc
+from numba.core.types import Tuple, Array, float64
 
 def setup():
     """Setup module variables.
@@ -21,7 +23,7 @@ def setup():
 
     EMIN = 5.0  # eV
 
-
+@jit(fastmath=True)
 def trajectory(pos_init, dir_init, e_init):
     """Simulate one trajectory.
     
