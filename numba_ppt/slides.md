@@ -51,7 +51,7 @@ layout: two-cols-header
 
 ::right::
 
-```python {all|1,6}
+```python {all|1,6|all}
 from numba import jit
 import numpy as np
 
@@ -100,6 +100,13 @@ layout: two-cols-header
 
 ::left::
 
+## Unveränderter Code
+
+- 14.96s (im Module, Mittelwert, 3 Ausführungen)
+- `trajectory.trajectory()`- 99.3% der Ausführungszeit
+  - (46.3%) `get_recoil_position()`
+  - (47.8%) `scatter()`
+
 ::right::
 
 ## Technische Daten
@@ -110,6 +117,16 @@ layout: two-cols-header
 - numpy 2.0.2
 - numba 0.60.0
 
+::bottom::
+
+<img src="./media/pytrim_original-cropped.svg">
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
+
 ---
 layout: image
 image: media/flow_crabviz.svg
@@ -119,34 +136,217 @@ backgroundSize: 70em 70%
 # Tests - Vorbereitung
 
 ---
+layout: two-cols-header
 ---
 
-# H1
+# Tests - Vorbereitung
 
-<WindowMockup codeblock>
-```shell
-$ echo "Hello, World!"
-Hello, World!
-```
-</WindowMockup>
-
-```python window
-print("Hello world!)
-```
+::left::
 
 ````md magic-move
-```shell {all|1|2}
-$ echo "Hello, World!"
-Hello, World!
+```python
+def trajectory(pos_init, dir_init, e_init):
+    """Simulate one trajectory.
+    
+    Parameters:
+        pos_init (ndarray): initial position of the projectile (size 3)
+        dir_init (ndarray): initial direction of the projectile (size 3)
+        e_init (float): initial energy of the projectile (eV)
+
+    Returns:
+        ndarray: final position of the projectile (size 3)
+        ndarray: final direction of the projectile (size 3)
+        float: final energy of the projectile (eV)
+        bool: True if projectile is stopped inside the target, 
+            False otherwise
+    """
 ```
 
 ```python
-print("Hello world!)
+from numba import jit
+
+@jit
+def trajectory(pos_init, dir_init, e_init):
+    """Simulate one trajectory.
+    
+    Parameters:
+        pos_init (ndarray): initial position of the projectile (size 3)
+        dir_init (ndarray): initial direction of the projectile (size 3)
+        e_init (float): initial energy of the projectile (eV)
+
+    Returns:
+        ndarray: final position of the projectile (size 3)
+        ndarray: final direction of the projectile (size 3)
+        float: final energy of the projectile (eV)
+        bool: True if projectile is stopped inside the target, 
+            False otherwise
+    """
 ```
 ````
+
+::right::
+
+<div v-click="1">
+```py
+@jit
+def get_recoil_position(pos, dir)
+```
+</div>
+
+<div v-after>
+```py
+@jit
+def scatter(e, dir, p, dirp)
+```
+...
+</div>
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
+
+---
+---
+
+# Tests - Zwischenergebnis
+
+## Optimierter Code
+
+- 2.13s (-85.76%) (im Module, Mittelwert, 3 Ausführungen)
+- `trajectory.trajectory()`- 11.6% der Ausführungszeit
+- `_compile_for_args()`- 82.4%
+  - Verbesserungsbedarf
+
+<img src="./media/out-cropped.svg">
+
+---
+layout: two-cols-header
+---
+
+# Tests - Optimierung
+
+::left::
+
+````md magic-move
+```python
+from numba import jit
+
+@jit
+def trajectory(pos_init, dir_init, e_init):
+    """Simulate one trajectory.
+    
+    Parameters:
+        pos_init (ndarray): initial position of the projectile (size 3)
+        dir_init (ndarray): initial direction of the projectile (size 3)
+        e_init (float): initial energy of the projectile (eV)
+
+    Returns:
+        ndarray: final position of the projectile (size 3)
+        ndarray: final direction of the projectile (size 3)
+        float: final energy of the projectile (eV)
+        bool: True if projectile is stopped inside the target, 
+            False otherwise
+    """
+```
+
+```python
+from numba import jit
+
+@jit(cache=True, fastmath=True)
+def trajectory(pos_init, dir_init, e_init):
+    """Simulate one trajectory.
+    
+    Parameters:
+        pos_init (ndarray): initial position of the projectile (size 3)
+        dir_init (ndarray): initial direction of the projectile (size 3)
+        e_init (float): initial energy of the projectile (eV)
+
+    Returns:
+        ndarray: final position of the projectile (size 3)
+        ndarray: final direction of the projectile (size 3)
+        float: final energy of the projectile (eV)
+        bool: True if projectile is stopped inside the target, 
+            False otherwise
+    """
+```
+````
+
+::right::
+
+<div v-click="1">
+```py
+@jit(fastmath=True)
+def get_recoil_position(pos, dir)
+```
+
+```py
+@jit(fastmath=True)
+def scatter(e, dir, p, dirp)
+```
+...
+
+- `cache`- Kompilierter code wird auf der Festplatte gespeichert
+- `fastmath`- Weitere Optimierung der Rechenoperationen auf Kosten der Präzesion
+</div>
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
+
+---
+---
+
+# Tests - Endergebnis
+
+## Optimierter Code
+
+- 0.58s (-72.77%) (im Module, Mittelwert, 3 Ausführungen)
+- `trajectory.trajectory()`- 46.9% der Ausführungszeit
+- `_compile_for_args()`- 29.2%
+
+<img src="./media/out1-cropped.svg">
+
+---
+---
+
+# Verbesserungspotenzial
+
+- Parallelisierung der Schleife mit`trajectory()`Aufruf hatte keinen Einfluss
+- `fastmath`hatte nur einen geringen Einfluss
+- Anpassung vom Code für Arbeit mit reinen NumPy-Funktionen mit 2D-Arrays kann die Performance mit Numba weiter verbessern
+
+---
+layout: two-cols-header
+---
+
+# Persönliche Meinung & Fazit
+
+::left::
+
+## Pros
+
+- Leichte Einbindung
+- Deutlich spürbare Optimierung
+- Umfangreiche & verständliche Dokumentation
+
+::right::
+
+## Remarks
+
+- Beschränkte Exception-Handling
+  - Array-Zugriff über unzulässige Indizen
+- Read-only globals
+- Caching
+  - Globals werden als konstant angenommen
+  - Code-Änderungen in anderen Dateien werden nicht erkannt
+
 
 ---
 layout: intro
 ---
 
-# Thx
+# Fragen?
