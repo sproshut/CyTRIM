@@ -1,9 +1,9 @@
-import time
-import numpy as np
+def f(x):
+    return x**2
+def g(x):
+    return x**4
+def h(x):
+    return x**8
 
-n = 10e6
-nums = np.arange(n)
-start_time = time.time()
-nums = nums**2
-end_time = time.time()
-print(f"Simulation time: {end_time - start_time:.4f} seconds")
+import timeit
+print(timeit.timeit('[func(42) for func in (f,g,h)]', globals=globals()))

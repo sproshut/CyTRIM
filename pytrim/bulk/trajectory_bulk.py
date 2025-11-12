@@ -7,7 +7,7 @@ Available functions:
 from select_recoil_bulk import get_recoil_position
 from scatter_bulk import scatter
 from estop_bulk import eloss
-from geometry import is_inside_target
+from geometry_bulk import is_inside_target
 import numpy as np
 
 
@@ -40,22 +40,21 @@ def trajectories(pos_init: np.ndarray, dir_init: np.ndarray, e_init: np.ndarray)
         bool: True if projectile is stopped inside the target,
             False otherwise
     """
-    pos = pos_init.copy()
-    dir = dir_init.copy()
-    e = e_init.copy()
+    # NOTE following lines invoked .copy() method, not required any more
+    pos = pos_init
+    dir = dir_init
+    e = e_init
     is_inside = np.array([True for _ in range(e.size)])
 
     while True:
-        high_e_indices = np.argwhere(e > EMIN).flatten()
-        full_condition = np.argwhere(is_inside[high_e_indices] == True)
-        if not full_condition.any():
+        valid_ions = np.argwhere((e > EMIN) & (is_inside)).flatten()
+        if not valid_ions.any():
             break
         # Current values reference values inside the full list for which the condition is met
-        full_condition = full_condition.flatten()
-        e_current = e[full_condition]
-        pos_current = pos[full_condition]
-        dir_current = dir[full_condition]
-        inside_current = is_inside[full_condition]
+        e_current = e[valid_ions]
+        pos_current = pos[valid_ions]
+        dir_current = dir[valid_ions]
+        inside_current = is_inside[valid_ions]
 
         free_path, p, dirp, _ = get_recoil_position(pos_current, dir_current)
         dee = eloss(e_current, free_path)
@@ -63,7 +62,15 @@ def trajectories(pos_init: np.ndarray, dir_init: np.ndarray, e_init: np.ndarray)
         pos_current += free_path * dir_current
         inside_current = is_inside_target(pos_current)
         # The execution will continue for outside particles as well
-        # TODO fix?
+        # NOTE This may provide invalid values for them
+        # TODO maybe filter them out?
         dir_current, e_current, _, _ = scatter(e_current, dir_current, p, dirp)
 
+        # Write updated values back
+        e[valid_ions] = e_current
+        pos[valid_ions] = pos_current
+        dir[valid_ions] = dir_current
+        is_inside[valid_ions] = inside_current
+
+    # TODO Pass-by-reference without returning anything
     return pos, dir, e, is_inside

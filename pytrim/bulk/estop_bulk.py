@@ -8,6 +8,7 @@ Available functions:
     eloss: calculate the electronic energy loss.
 """
 from math import sqrt
+import numpy as np
 
 
 def setup(corr_lindhard, z1, m1, z2, density):
@@ -40,8 +41,7 @@ def eloss(e, free_path):
     Returns:
         float: energy loss (eV)
     """
-    dee = FAC_LINDHARD * DENSITY * sqrt(e) * free_path
-    if dee > e:
-        dee = e
+    dee = FAC_LINDHARD * DENSITY * np.sqrt(e) * free_path
+    dee = np.where(dee > e, e, dee)
 
     return dee

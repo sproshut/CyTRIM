@@ -1,8 +1,8 @@
 """Treat the scattering of a projectile on a target atom.
 
 Currently, only the ZBL potential (Ziegler, Biersack, Littmark,
-The Stopping and Range of Ions in Matter, Pergamon Press, 1985) is 
-implemented, along with Biersack's "magic formula" for the scattering 
+The Stopping and Range of Ions in Matter, Pergamon Press, 1985) is
+implemented, along with Biersack's "magic formula" for the scattering
 angle.
 
 Available functions:
@@ -24,17 +24,17 @@ def setup(z1, m1, z2, m2):
         m2 (float): mass of target (amu)
 
     Returns:
-        None    
+        None
     """
     global ENORM, RNORM, DIRFAC, DENFAC
 
     m1_m2 = m1 / m2
-    RNORM = 0.4685 / (z1**0.23 + z2**0.23)                    # A
-    ENORM = 14.39979 * z1 * z2 / RNORM * (1 + m1_m2)          # eV
+    RNORM = 0.4685 / (z1**0.23 + z2**0.23)  # A
+    ENORM = 14.39979 * z1 * z2 / RNORM * (1 + m1_m2)  # eV
     DIRFAC = 2 / (1 + m1_m2)
-    DENFAC = 4 * m1_m2 / (1 + m1_m2)**2
-        
-        
+    DENFAC = 4 * m1_m2 / (1 + m1_m2) ** 2
+
+
 # Constants for ZBL screening function
 A1 = 0.18175
 A2 = 0.50986
@@ -51,7 +51,8 @@ A2B2 = A2 * B2
 A3B3 = A3 * B3
 A4B4 = A4 * B4
 
-def ZBLscreen(r):
+
+def ZBLscreen(r: np.ndarray):
     """Calculate the ZBL screening function and its derivative.
 
     Parameters:
@@ -61,25 +62,26 @@ def ZBLscreen(r):
         float: ZBL potential at distance r (ENORM)
         float: derivative of ZBL potential at distance r (ENORM/RNORM)
     """
-    exp1 = exp(-B1 * r)
-    exp2 = exp(-B2 * r)
-    exp3 = exp(-B3 * r)
-    exp4 = exp(-B4 * r)
-    screen = A1*exp1 + A2*exp2 + A3*exp3 + A4*exp4
-    dscreen = - (A1B1*exp1 + A2B2*exp2 + A3B3*exp3 + A4B4*exp4)
-    
+    exp1 = np.exp(-B1 * r)
+    exp2 = np.exp(-B2 * r)
+    exp3 = np.exp(-B3 * r)
+    exp4 = np.exp(-B4 * r)
+    screen = A1 * exp1 + A2 * exp2 + A3 * exp3 + A4 * exp4
+    dscreen = -(A1B1 * exp1 + A2B2 * exp2 + A3B3 * exp3 + A4B4 * exp4)
+
     return screen, dscreen
 
 
 # Constants for apsis estimation for the ZBL potential
-K2 = 0.38           # factor of the 1/R part
-K3 = 7.2            # factor of the 1/R^3 part
-K1 = 1/(4*K2)
-R12sq = (2*K2)**2
+K2 = 0.38  # factor of the 1/R part
+K3 = 7.2  # factor of the 1/R^3 part
+K1 = 1 / (4 * K2)
+R12sq = (2 * K2) ** 2
 R23sq = K3 / K2
-NITER = 1           # number of Newton-Raphson iterations
+NITER = 1  # number of Newton-Raphson iterations
 
-def estimate_apsis(e, p):
+
+def estimate_apsis(e: np.ndarray, p: np.ndarray):
     """Estimate the distance of closest approach (apsis) in a colllision.
 
     Parameters:
@@ -90,26 +92,26 @@ def estimate_apsis(e, p):
         float: Estimated apsis of the collision (RNORM)
     """
     psq = p**2
-    r0sq = 0.5 * (psq + sqrt(psq**2 + 4*K3/e))
+    r0sq = 0.5 * (psq + np.sqrt(psq**2 + 4 * K3 / e))
 
-    if r0sq < R23sq:
-        r0sq = psq + K2/e
-        if r0sq < R12sq:
-            r0 = (1 + sqrt(1 + 4*e*(e+K1)*psq)) / (2*(e+K1))
-        else:
-            r0 = sqrt(r0sq)
-    else:
-        r0 = sqrt(r0sq)
-    
+    r0sq = np.where(r0sq < R23sq, psq + K2 / e, r0sq)
+    r0 = np.where(
+        r0sq < R12sq,
+        (1 + np.sqrt(1 + 4 * e * (e + K1) * psq)) / (2 * (e + K1)),
+        np.sqrt(r0sq),
+    )
+
     # Do Newton-Raphson iterations to improve the estimate
     for _ in range(NITER):
         screen, dscreen = ZBLscreen(r0)
-        numerator = r0*(r0-screen/e) - p**2
-        denominator = 2*r0 - (screen+r0*dscreen)/e
-        r0 -= numerator/denominator
+        numerator = r0 * (r0 - screen / e) - psq
+        denominator = 2 * r0 - (screen + r0 * dscreen) / e
+        r0 -= numerator / denominator
 
-        residuum = 1 - screen/(e*r0) - p**2/r0**2
-        if abs(residuum) < 1e-4:
+        residuum = 1 - screen / (e * r0) - psq / r0**2
+        # NOTE Values below threshold may be filtered out
+        # NOTE in the future to speed up processing with large number of iterations
+        if np.all(np.abs(residuum) < 1e-4):
             break
 
     return r0
@@ -121,84 +123,83 @@ C3 = 0.007122
 C4 = 14.813
 C5 = 9.3066
 
-def magic(e, p):
+
+def magic(e: np.ndarray, p_init: np.ndarray):
     """Calculate CM scattering angle using Biersack's magic formula.
 
     Parameters:
         e (float): energy of projectile before the collision (ENORM)
         p (float): impact parameter (RNORM)
-    
+
     Returns:
-        float: cosine of half the scattering angle in the center-of-mass 
+        float: cosine of half the scattering angle in the center-of-mass
             system
     """
+    p = p_init.copy().flatten()
     r0 = estimate_apsis(e, p)
     screen, dscreen = ZBLscreen(r0)
 
-    rho = 2*(e*r0-screen) / (screen/r0-dscreen)
-    sqrte = sqrt(e)
-    alpha = 1 + C1/sqrte
-    beta = (C2+sqrte) / (C3+sqrte)
-    gamma = (C4+e) / (C5+e)
+    rho = 2 * (e * r0 - screen) / (screen / r0 - dscreen)
+    sqrte = np.sqrt(e)
+    alpha = 1 + C1 / sqrte
+    beta = (C2 + sqrte) / (C3 + sqrte)
+    gamma = (C4 + e) / (C5 + e)
     a = 2 * alpha * e * p**beta
-    g = gamma / (sqrt(1+a**2)-a)
-    delta = a * (r0-p) / (1+g)
+    g = gamma / (np.sqrt(1 + a**2) - a)
+    delta = a * (r0 - p) / (1 + g)
 
     cos_half_theta = (p + rho + delta) / (r0 + rho)
-    if cos_half_theta > 1:
+    if np.any(cos_half_theta > 1):
         print("Warning: cos_half_theta > 1:", cos_half_theta)
         print("  e =", e, "p =", p, "r0 =", r0, "rho =", rho, "delta =", delta)
 
     return cos_half_theta
 
 
-def scatter(e, dir, p, dirp):
+def scatter(e: np.ndarray, dir: np.ndarray, p: np.ndarray, dirp: np.ndarray):
     """Treat a scattering event.
 
     The atomic numbers and masses of the projectile and target enter the
     calculation via the module variables ENORM, PNORM, DIRFAC, and DENFAC.
 
-    The direction vectors dir and dirp are assumed to be normalized to 
+    The direction vectors dir and dirp are assumed to be normalized to
     unit length.
 
     Parameters:
         e (float): energy of the projectile before the collision (eV)
-        dir (ndarray): direction vector of the projectile before 
+        dir (ndarray): direction vector of the projectile before
             the collision (size 3)
         p (float): impact parameter (A)
         dirp (ndarray): direction vector of the impact parameter
-            (= from the collision point to the recoil position before 
+            (= from the collision point to the recoil position before
             the collision) (size 3)
-    
+
     Returns:
-        ndarray: direction vector of the projectile after the collision 
+        ndarray: direction vector of the projectile after the collision
             (size 3)
         float: energy of the projectile after the collision (eV)
-        ndarray: direction vector of the recoil after the collision 
+        ndarray: direction vector of the recoil after the collision
             (size 3)
         float: energy of the projectile after the collision
     """
     # scattering angle theta in the center-of-mass system
-    cos_half_theta = magic(e/ENORM, p/RNORM)
+    cos_half_theta = magic(e / ENORM, p / RNORM)
+    cos_half_theta = cos_half_theta[:,np.newaxis]
 
     # directions of the recoil and the projectile after the collision
     sin_psi = cos_half_theta
-    cos_psi = sqrt(1 - sin_psi**2)
-    dir_recoil = DIRFAC * cos_psi * (cos_psi*dir[:] + sin_psi*dirp[:])
+    cos_psi = np.sqrt(1 - sin_psi**2)
+    dir_recoil = DIRFAC * cos_psi * (cos_psi * dir + sin_psi * dirp)
+    
     dir_new = dir - dir_recoil
-    norm = np.linalg.norm(dir_new)
-    if norm == 0:
-        dir_new = dir[:]
-    else:
-        dir_new /= norm
-    norm = np.linalg.norm(dir_recoil)
-    if norm == 0:
-        dir_recoil = dir[:]
-    else:
-        dir_recoil /= norm
+    norm = np.linalg.norm(dir_new, axis=1, keepdims=True)
+    dir_new /= norm
+    
+    norm = np.linalg.norm(dir_recoil, axis=1, keepdims=True)
+    dir_recoil /= norm
 
     # energy after scattering
-    e_recoil = DENFAC * e * (1 - cos_half_theta**2)
+    e_recoil = DENFAC * e * (1 - cos_half_theta.flatten()**2)
     e -= e_recoil
 
     return dir_new, e, dir_recoil, e_recoil

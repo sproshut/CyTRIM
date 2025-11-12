@@ -21,9 +21,8 @@ import numpy as np
 import select_recoil_bulk as select_recoil
 import scatter_bulk as scatter
 import estop_bulk as estop
-import geometry
+import geometry_bulk as geometry
 import trajectory_bulk as trajectory
-from tqdm import tqdm
 
 
 start_time = time.time()
@@ -53,7 +52,7 @@ dir_init = np.array([[0.0, 0.0, 1.0] for _ in range(nion)])     # direction (uni
 pos, dir, e, is_inside = trajectory.trajectories(pos_init, dir_init, e_init)
 
 count_inside = np.count_nonzero(is_inside)
-mean_z = pos[is_inside][2]
+mean_z = pos[is_inside,2]
 std_z = np.std(mean_z.copy())
 mean_z = np.mean(mean_z)
 
@@ -64,3 +63,6 @@ print(f"Standard deviation of penetration depth: {std_z:.2f} A")
 
 end_time = time.time()
 print(f"Simulation time: {end_time - start_time:.2f} seconds")
+
+# plt.boxplot(pos[is_inside,2])
+# plt.show()

@@ -33,7 +33,4 @@ def is_inside_target(pos):
     Returns:
         bool: True if position is inside the target, False otherwise
     """
-    if ZMIN <= pos[2] <= ZMAX:
-        return True
-    else:
-        return False
+    return (ZMIN <= pos[:,2]) & (pos[:,2] <= ZMAX)
