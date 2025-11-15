@@ -7,7 +7,6 @@ Available functions:
     is_inside_target: check if a given position is inside the target
 """
 
-from numba import jit
 
 def setup(zmin, zmax):
     """Define the geometry of the target.
@@ -24,7 +23,7 @@ def setup(zmin, zmax):
     ZMIN = zmin
     ZMAX = zmax
 
-@jit(fastmath=True)
+
 def is_inside_target(pos):
     """Check if a given position is inside the target.
 

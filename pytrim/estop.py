@@ -8,7 +8,6 @@ Available functions:
     eloss: calculate the electronic energy loss.
 """
 from math import sqrt
-from numba import jit
 
 
 def setup(corr_lindhard, z1, m1, z2, density):
@@ -30,7 +29,7 @@ def setup(corr_lindhard, z1, m1, z2, density):
         (z1**(2/3) + z2**(2/3))**(3/2) * sqrt(m1) )
     DENSITY = density
 
-@jit(fastmath=True)
+
 def eloss(e, free_path):
     """Calculate the electronic energy loss over a given free path length.
 

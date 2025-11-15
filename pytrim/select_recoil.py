@@ -10,7 +10,6 @@ Available functions:
 """
 from math import sqrt, sin, cos
 import numpy as np
-from numba import jit
 
 
 def setup(density):
@@ -27,7 +26,7 @@ def setup(density):
     MEAN_FREE_PATH = density**(-1/3)
     PMAX = MEAN_FREE_PATH / sqrt(np.pi)
 
-@jit(fastmath=True)
+
 def get_recoil_position(pos, dir):
     """Get the recoil position based on the projectile position and direction.
 
