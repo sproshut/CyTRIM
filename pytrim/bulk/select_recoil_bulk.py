@@ -9,7 +9,8 @@ Available functions:
     get_recoil_position: get the recoil position.
 """
 
-from math import sqrt, sin, cos
+from math import sqrt
+
 import numpy as np
 
 

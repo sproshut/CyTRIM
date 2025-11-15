@@ -1,13 +1,15 @@
 """Calculate the electronic stopping power.
 
-Currently, only the Lindhard model (Phys. Rev. 124, (1961) 128) with 
+Currently, only the Lindhard model (Phys. Rev. 124, (1961) 128) with
 a correction factor is implemented.
 
 Available functions:
     setup: setup module variables.
     eloss: calculate the electronic energy loss.
 """
+
 from math import sqrt
+
 import numpy as np
 
 
@@ -18,16 +20,21 @@ def setup(corr_lindhard, z1, m1, z2, density):
         corr_lindhard (float): Correction factor to Lindhard stopping power
         z1 (int): atomic number of projectile
         m1 (float): mass of projectile (amu)
-        z2 (int): atomic number of 
+        z2 (int): atomic number of
         density (float): target density (atoms/A^3)
 
     Returns:
-        None    
+        None
     """
     global FAC_LINDHARD, DENSITY
 
-    FAC_LINDHARD = corr_lindhard * 1.212 * z1**(7/6) * z2 / (
-        (z1**(2/3) + z2**(2/3))**(3/2) * sqrt(m1) )
+    FAC_LINDHARD = (
+        corr_lindhard
+        * 1.212
+        * z1 ** (7 / 6)
+        * z2
+        / ((z1 ** (2 / 3) + z2 ** (2 / 3)) ** (3 / 2) * sqrt(m1))
+    )
     DENSITY = density
 
 

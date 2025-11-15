@@ -4,11 +4,18 @@ Available functions:
     setup: setup module variables.
     trajectory: simulate one trajectory."""
 
-from select_recoil_bulk import get_recoil_position
-from scatter_bulk import scatter
-from estop_bulk import eloss
-from geometry_bulk import is_inside_target
 import numpy as np
+
+if __package__ and __package__.endswith("bulk"):
+    from .estop_bulk import eloss
+    from .geometry_bulk import is_inside_target
+    from .scatter_bulk import scatter
+    from .select_recoil_bulk import get_recoil_position
+else:
+    from estop_bulk import eloss
+    from geometry_bulk import is_inside_target
+    from scatter_bulk import scatter
+    from select_recoil_bulk import get_recoil_position
 
 
 def setup():
@@ -44,7 +51,7 @@ def trajectories(pos_init: np.ndarray, dir_init: np.ndarray, e_init: np.ndarray)
     pos = pos_init
     dir = dir_init
     e = e_init
-    is_inside = np.array([True for _ in range(e.size)])
+    is_inside = np.full(e.size, True)
 
     while True:
         valid_ions = np.argwhere((e > EMIN) & (is_inside)).flatten()

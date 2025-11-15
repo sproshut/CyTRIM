@@ -10,7 +10,6 @@ Available functions:
     scatter: treat a scattering event.
 """
 
-from math import sqrt, exp
 import numpy as np
 
 
@@ -135,7 +134,7 @@ def magic(e: np.ndarray, p_init: np.ndarray):
         float: cosine of half the scattering angle in the center-of-mass
             system
     """
-    p = p_init.copy().flatten()
+    p = p_init.flatten()
     r0 = estimate_apsis(e, p)
     screen, dscreen = ZBLscreen(r0)
 
@@ -184,22 +183,22 @@ def scatter(e: np.ndarray, dir: np.ndarray, p: np.ndarray, dirp: np.ndarray):
     """
     # scattering angle theta in the center-of-mass system
     cos_half_theta = magic(e / ENORM, p / RNORM)
-    cos_half_theta = cos_half_theta[:,np.newaxis]
+    cos_half_theta = cos_half_theta[:, np.newaxis]
 
     # directions of the recoil and the projectile after the collision
     sin_psi = cos_half_theta
     cos_psi = np.sqrt(1 - sin_psi**2)
     dir_recoil = DIRFAC * cos_psi * (cos_psi * dir + sin_psi * dirp)
-    
+
     dir_new = dir - dir_recoil
     norm = np.linalg.norm(dir_new, axis=1, keepdims=True)
     dir_new /= norm
-    
+
     norm = np.linalg.norm(dir_recoil, axis=1, keepdims=True)
     dir_recoil /= norm
 
     # energy after scattering
-    e_recoil = DENFAC * e * (1 - cos_half_theta.flatten()**2)
+    e_recoil = DENFAC * e * (1 - cos_half_theta.flatten() ** 2)
     e -= e_recoil
 
     return dir_new, e, dir_recoil, e_recoil

@@ -10,7 +10,7 @@ Available functions:
 
 def setup(zmin, zmax):
     """Define the geometry of the target.
-    
+
     Parameters:
         zmin (int): minimum z coordinate of the target (A)
         zmax (int): maximum z coordinate of the target (A)
@@ -33,4 +33,4 @@ def is_inside_target(pos):
     Returns:
         bool: True if position is inside the target, False otherwise
     """
-    return (ZMIN <= pos[:,2]) & (pos[:,2] <= ZMAX)
+    return (ZMIN <= pos[:, 2]) & (pos[:, 2] <= ZMAX)
