@@ -16,16 +16,16 @@ mean and the straggling of the penetration depth of the primary ions are
 recorded.
 """
 
-from math import sqrt
 import time
-import numpy as np
-import select_recoil
-import scatter
+from math import sqrt
+
 import estop
 import geometry
-import trajectory
 import matplotlib.pyplot as plt
 import numpy as np
+import scatter
+import select_recoil
+import trajectory
 
 nion = 1000  # number of projectiles to simulate
 
@@ -79,9 +79,7 @@ if __name__ == "__main__":
     pos, dir, e, is_inside, mean_z, std_z, count_inside = simulate(nion)
     end_time = time.time()
     print(f"Number of ions stopped inside the target: {count_inside} / {nion}")
-    print(
-        f"Mean penetration depth of ions stopped inside the target: " f"{mean_z:.2f} A"
-    )
+    print(f"Mean penetration depth of ions stopped inside the target: {mean_z:.2f} A")
     print(f"Standard deviation of penetration depth: {std_z:.2f} A")
     print(f"Simulation time: {end_time - start_time:.2f} seconds")
 

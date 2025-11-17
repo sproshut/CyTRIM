@@ -10,7 +10,7 @@ Available functions:
 
 def setup(zmin, zmax):
     """Define the geometry of the target.
-    
+
     Parameters:
         zmin (int): minimum z coordinate of the target (A)
         zmax (int): maximum z coordinate of the target (A)
