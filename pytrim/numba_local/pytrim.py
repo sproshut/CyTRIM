@@ -1,11 +1,11 @@
 """PyTRIM aims to be a Python implementation of TRIM.
 
-TRIM (Transport of Ions in Matter) is a widely used software package 
-for simulating the interaction of ions with matter, particularly for 
+TRIM (Transport of Ions in Matter) is a widely used software package
+for simulating the interaction of ions with matter, particularly for
 ion implantation in semiconductors. It comes as part of SRIM, see
 www.srim.org.
 
-PyTRIM seeks to replicate the core functionalities of TRIM using 
+PyTRIM seeks to replicate the core functionalities of TRIM using
 Python, making it more accessible and easier to integrate with other
 Python-based tools and workflows.
 
@@ -15,35 +15,44 @@ simulation parameters. Also, recoils are not yet followed, and only the
 mean and the straggling of the penetration depth of the primary ions are
 recorded.
 """
-from math import sqrt
+
 import time
-import numpy as np
-from . import select_recoil
-from . import scatter
-from . import estop
-from . import geometry
-from . import trajectory
+from math import sqrt
+
 import matplotlib.pyplot as plt
 
+# import os
+# os.environ["NUMBA_DISABLE_JIT"] = "1"
+import numpy as np
+
+if __package__ and __package__.endswith("numba_local"):
+    from . import estop, geometry, scatter, select_recoil, trajectory
+else:
+    import estop
+    import geometry
+    import scatter
+    import select_recoil
+    import trajectory
 
 start_time = time.time()
 
-nion = 1000             # number of projectiles to simulate
+nion = 1000  # number of projectiles to simulate
 
-zmin = 0.0              # minimum z coordinate of the target (A)
-zmax = 4000.0           # maximum z coordinate of the target (A)
-z1 = 5                  # atomic number of projectile
-m1 = 11.009             # mass of projectile (amu)
-z2 = 14                 # atomic number of target
-m2 = 28.086             # mass of target atom (amu)
-density = 0.04994       # target density (atoms/A^3)
-corr_lindhard = 1.5     # Correction factor to Lindhard stopping power
+zmin = 0.0  # minimum z coordinate of the target (A)
+zmax = 4000.0  # maximum z coordinate of the target (A)
+z1 = 5  # atomic number of projectile
+m1 = 11.009  # mass of projectile (amu)
+z2 = 14  # atomic number of target
+m2 = 28.086  # mass of target atom (amu)
+density = 0.04994  # target density (atoms/A^3)
+corr_lindhard = 1.5  # Correction factor to Lindhard stopping power
 
 select_recoil.setup(density)
 scatter.setup(z1, m1, z2, m2)
 estop.setup(corr_lindhard, z1, m1, z2, density)
 geometry.setup(zmin, zmax)
 trajectory.setup()
+
 
 def simulate(nion):
     # Initial conditions of the projectile
@@ -79,11 +88,10 @@ if __name__ == "__main__":
     pos, dir, e, is_inside, mean_z, std_z, count_inside = simulate(nion)
     end_time = time.time()
     print(f"Number of ions stopped inside the target: {count_inside} / {nion}")
-    print(
-        f"Mean penetration depth of ions stopped inside the target: " f"{mean_z:.2f} A"
-    )
+    print(f"Mean penetration depth of ions stopped inside the target: {mean_z:.2f} A")
     print(f"Standard deviation of penetration depth: {std_z:.2f} A")
     print(f"Simulation time: {end_time - start_time:.2f} seconds")
+    print(f"Seconds per ion: {(end_time - start_time) / nion}")
 
     pos = np.array(pos)
     is_inside = np.array(is_inside)

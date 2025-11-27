@@ -26,7 +26,7 @@ def setup(zmin, zmax):
     ZMAX = zmax
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def is_inside_target(pos):
     """Check if a given position is inside the target.
 

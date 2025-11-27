@@ -56,7 +56,6 @@ def get_recoil_position(pos, dir):
     k = np.argmin(
         np.abs(dir), axis=1
     )  # make k point to the smallest dir so sin_alpha > sqrt(2/3)
-    # TODO modulo operator is very compute intensive
     i = (k + 1) % 3
     j = (i + 1) % 3
 

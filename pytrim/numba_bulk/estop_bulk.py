@@ -39,7 +39,7 @@ def setup(corr_lindhard, z1, m1, z2, density):
     DENSITY = density
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def eloss(e, free_path):
     """Calculate the electronic energy loss over a given free path length.
 

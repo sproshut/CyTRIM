@@ -3,11 +3,19 @@
 Available functions:
     setup: setup module variables.
     trajectory: simulate one trajectory."""
-from .select_recoil import get_recoil_position
-from .scatter import scatter
-from .estop import eloss
-from .geometry import is_inside_target
+
+if __package__ and __package__.endswith("numba_local"):
+    from .estop import eloss
+    from .geometry import is_inside_target
+    from .scatter import scatter
+    from .select_recoil import get_recoil_position
+else:
+    from estop import eloss
+    from geometry import is_inside_target
+    from scatter import scatter
+    from select_recoil import get_recoil_position
 from numba import jit
+
 
 def setup():
     """Setup module variables.
@@ -16,16 +24,17 @@ def setup():
         None
 
     Returns:
-        None    
+        None
     """
     global EMIN
 
     EMIN = 5.0  # eV
 
+
 @jit(fastmath=True, cache=True)
 def trajectory(pos_init, dir_init, e_init):
     """Simulate one trajectory.
-    
+
     Parameters:
         pos_init (ndarray): initial position of the projectile (size 3)
         dir_init (ndarray): initial direction of the projectile (size 3)
@@ -35,7 +44,7 @@ def trajectory(pos_init, dir_init, e_init):
         ndarray: final position of the projectile (size 3)
         ndarray: final direction of the projectile (size 3)
         float: final energy of the projectile (eV)
-        bool: True if projectile is stopped inside the target, 
+        bool: True if projectile is stopped inside the target,
             False otherwise
     """
     pos = pos_init.copy()

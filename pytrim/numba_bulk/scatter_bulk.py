@@ -52,7 +52,7 @@ A3B3 = A3 * B3
 A4B4 = A4 * B4
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def ZBLscreen(r: np.ndarray):
     """Calculate the ZBL screening function and its derivative.
 
@@ -82,7 +82,7 @@ R23sq = K3 / K2
 NITER = 1  # number of Newton-Raphson iterations
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def estimate_apsis(e: np.ndarray, p: np.ndarray):
     """Estimate the distance of closest approach (apsis) in a colllision.
 
@@ -126,7 +126,7 @@ C4 = 14.813
 C5 = 9.3066
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def magic(e: np.ndarray, p_init: np.ndarray):
     """Calculate CM scattering angle using Biersack's magic formula.
 
@@ -159,7 +159,7 @@ def magic(e: np.ndarray, p_init: np.ndarray):
     return cos_half_theta
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def scatter(e: np.ndarray, dir: np.ndarray, p: np.ndarray, dirp: np.ndarray):
     """Treat a scattering event.
 

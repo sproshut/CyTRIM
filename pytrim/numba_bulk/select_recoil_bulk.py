@@ -30,7 +30,7 @@ def setup(density):
     PMAX = MEAN_FREE_PATH / sqrt(np.pi)
 
 
-@jit(fastmath=False)
+@jit(fastmath=True)
 def get_recoil_position(pos, dir):
     """Get the recoil position based on the projectile position and direction.
 
@@ -59,7 +59,6 @@ def get_recoil_position(pos, dir):
         np.abs(dir), axis=1
     )  # make k point to the smallest dir so sin_alpha > sqrt(2/3)
     k = k[:, np.newaxis]  # same as .reshape(-1, 1)
-    # TODO modulo operator is very compute intensive
     i = (k + 1) % 3
     j = (i + 1) % 3
 

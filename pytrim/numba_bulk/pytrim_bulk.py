@@ -18,6 +18,8 @@ recorded.
 
 import time
 
+# import os
+# os.environ["NUMBA_DISABLE_JIT"] = "1"
 import numpy as np
 
 if __package__ and __package__.endswith("numba_bulk"):

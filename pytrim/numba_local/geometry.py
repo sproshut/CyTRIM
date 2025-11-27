@@ -9,9 +9,10 @@ Available functions:
 
 from numba import jit
 
+
 def setup(zmin, zmax):
     """Define the geometry of the target.
-    
+
     Parameters:
         zmin (int): minimum z coordinate of the target (A)
         zmax (int): maximum z coordinate of the target (A)
@@ -23,6 +24,7 @@ def setup(zmin, zmax):
 
     ZMIN = zmin
     ZMAX = zmax
+
 
 @jit(fastmath=True)
 def is_inside_target(pos):

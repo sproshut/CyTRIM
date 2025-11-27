@@ -8,7 +8,9 @@ Available functions:
     setup: setup module variables.
     get_recoil_position: get the recoil position.
 """
-from math import sqrt, sin, cos
+
+from math import cos, sin, sqrt
+
 import numpy as np
 from numba import jit
 
@@ -20,12 +22,13 @@ def setup(density):
         density (float): target density (atoms/A^3)
 
     Returns:
-        None    
+        None
     """
     global PMAX, MEAN_FREE_PATH
 
-    MEAN_FREE_PATH = density**(-1/3)
+    MEAN_FREE_PATH = density ** (-1 / 3)
     PMAX = MEAN_FREE_PATH / sqrt(np.pi)
+
 
 @jit(fastmath=True)
 def get_recoil_position(pos, dir):
@@ -37,7 +40,7 @@ def get_recoil_position(pos, dir):
 
     Returns:
         float: free path length to the next collision (A)
-        float: impact parameter = distance between collision point and 
+        float: impact parameter = distance between collision point and
             recoil (A)
         ndarray: direction vector from collision point to recoil (size 3)
         ndarray: position of the recoil (size 3)
@@ -52,19 +55,21 @@ def get_recoil_position(pos, dir):
     sin_fi = sin(fi)
 
     # Convert direction vector to polar angles
-    k = np.argmin( np.abs(dir[:]) )   # make k point to the smallest dir(:) so sinalf > sqrt(2/3)
+    k = np.argmin(
+        np.abs(dir[:])
+    )  # make k point to the smallest dir(:) so sinalf > sqrt(2/3)
     i = (k + 1) % 3
     j = (i + 1) % 3
     cos_alpha = dir[k]
-    sin_alpha = sqrt( dir[i]**2 + dir[j]**2 )
+    sin_alpha = sqrt(dir[i] ** 2 + dir[j] ** 2)
     cos_phi = dir[i] / sin_alpha
     sin_phi = dir[j] / sin_alpha
 
     # direction vector from collision point to recoil
     dirp = np.empty(3)
-    dirp[i] = cos_fi*cos_alpha*cos_phi - sin_fi*sin_phi
-    dirp[j] = cos_fi*cos_alpha*sin_phi + sin_fi*cos_phi
-    dirp[k] = - cos_fi*sin_alpha
+    dirp[i] = cos_fi * cos_alpha * cos_phi - sin_fi * sin_phi
+    dirp[j] = cos_fi * cos_alpha * sin_phi + sin_fi * cos_phi
+    dirp[k] = -cos_fi * sin_alpha
     norm = np.linalg.norm(dirp)
     dirp /= norm
 

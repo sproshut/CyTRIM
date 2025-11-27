@@ -68,9 +68,6 @@ def trajectories(pos_init: np.ndarray, dir_init: np.ndarray, e_init: np.ndarray)
         e_current -= dee
         pos_current += free_path * dir_current
         inside_current = is_inside_target(pos_current)
-        # The execution will continue for outside particles as well
-        # NOTE This may provide invalid values for them
-        # TODO maybe filter them out?
         dir_current, e_current, _, _ = scatter(e_current, dir_current, p, dirp)
 
         # Write updated values back
@@ -79,5 +76,4 @@ def trajectories(pos_init: np.ndarray, dir_init: np.ndarray, e_init: np.ndarray)
         dir[valid_ions] = dir_current
         is_inside[valid_ions] = inside_current
 
-    # TODO Pass-by-reference without returning anything
     return pos, dir, e, is_inside
