@@ -2,8 +2,9 @@ import time
 
 import bulk.pytrim_bulk as pytrim_bulk
 import matplotlib.pyplot as plt
-import numba_bulk.pytrim_bulk as pytrim_numba_bulk  # noqa: E402
-import numba_local.pytrim as pytrim_numba  # noqa: E402
+import numba_bulk.pytrim_bulk as pytrim_numba_bulk
+import numba_bulk_par.pytrim_bulk as pytrim_numba_bulk_par
+import numba_local.pytrim as pytrim_numba
 import numpy as np
 from tqdm import tqdm
 
@@ -22,6 +23,11 @@ test_funcs = [
     {"func": pytrim_numba.simulate, "label": "numba", "compilable": True},
     {"func": pytrim_bulk.simulate, "label": "bulk", "compilable": False},
     {"func": pytrim_numba_bulk.simulate, "label": "numba_bulk", "compilable": True},
+    {
+        "func": pytrim_numba_bulk_par.simulate,
+        "label": "numba_bulk_par",
+        "compilable": True,
+    },
 ]
 
 if __name__ == "__main__":
@@ -52,7 +58,8 @@ if __name__ == "__main__":
                         pos = np.array(pos)
                         is_inside = np.array(is_inside)
                     z_pos.append(pos[is_inside, 2])
-            (avg_times / (i + 1)).tofile("avg_times_3.np")
+            # NOTE Saving happens here!!!
+            # (avg_times / (i + 1)).tofile("avg_times_par_large.np")
 
     avg_times /= iter_count
     print(avg_times)

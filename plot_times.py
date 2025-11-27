@@ -12,9 +12,10 @@ import numpy as np
 #     }
 # )
 
-avg_times = np.fromfile("perf/avg_times.np").reshape(4, -1)
+funcs = ["orig", "numba", "bulk", "numba_bulk", "numba_bulk_par"]
+avg_times = np.fromfile("perf/avg_times_new.np").reshape(len(funcs), -1)
 nions = np.array([50, 100, 500, 1000, 10000, 100000, 500000, int(1e6)])
-funcs = ["orig", "numba", "bulk", "numba_bulk"]
+assert nions.size == avg_times.shape[1]
 
 plt.style.use("dark_background")
 plt.title("Overview of simulation times")
@@ -35,5 +36,5 @@ plt.xscale("log")
 plt.yscale("log")
 plt.xlabel("Number ions simulated")
 plt.ylabel("Time (s)")
-# plt.savefig("media/sim_perf.png", dpi=300, transparent=True)
+# plt.savefig("media/sim_perf_par.png", dpi=300, transparent=True)
 plt.show()
